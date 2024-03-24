@@ -4,6 +4,7 @@ const cookieParser = require("cookie-parser");
 const userRouter = require("./routes/userRouter");
 const taskRouter = require("./routes/taskRouter");
 const subtaskRouter = require("./routes/subtaskRouter");
+require('./cronJobs.js');
 
 const app = express();
 
